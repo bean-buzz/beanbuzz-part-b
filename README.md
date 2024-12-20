@@ -1,7 +1,16 @@
 # Assignment T3A2-B: Full Stack App (Part B)  - BeanBuzz 
 
-Note: This README document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
-where features have been removed or changed a ~~strike through~~ will be present accompanied by an explanation of the change.
+> NOTE: This README document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
+where features have been removed or changed a, ~~strike through~~ will be present accompanied by an explanation of the change at the end of the section. Links to the deployed project, github repositories for both the front-end and back-end, and installation instructions have also been added to the start of the document.
+
+# links
+
+Deployed project: MAKE THIS A LINK
+
+[Github repository front-end](https://github.com/bean-buzz/beanbuzz-frontend)
+
+[Github repository back-end](https://github.com/bean-buzz/beanbuzz-backend)
+
 
 # Group Information
 
@@ -11,7 +20,7 @@ where features have been removed or changed a ~~strike through~~ will be present
 
 # R1 - Description of Website
 
-> Description of your website, including: Purpose, Functionality / features, Target audience and Tech stack
+Description of your website, including: Purpose, Functionality / features, Target audience and Tech stack
 
 ## Purpose
 
@@ -49,20 +58,21 @@ Plus, trying to manage order history, revenue, and other important info manually
 Restaurants and cafes may struggle to give incentive for their customers to come back frequently. With so many places offering similar food and experiences, it’s hard to stand out and build loyalty.
 This can lead to inconsistent revenue and make it tough to grow or stay sustainable in the long run. In areas packed with dining options, not focusing on customer loyalty can make it even harder to stand out and succeed.
 
+
 ## Features & Functionality
 
 ### For Customers
 
 1.  <b>Dynamic Menu</b><br>
-    The app will feature a dynamic menu that can be filtered by customers based on a variety of dietary requirements. Cafe and Restaurant staff will also be able to toggle the availability of menu items - this ensures that customers are aware of the availability of menu items prior to ordering.
+    The app will feature a dynamic menu ~~that can be filtered by customers based on a variety of dietary requirements.~~ Cafe and Restaurant staff will also be able to toggle the availability of menu items - this ensures that customers are aware of the availability of menu items prior to ordering.
 
-    - Filter by dietary needs (vegan, gluten free)
+    ~~Filter by dietary needs (vegan, gluten free).~~
     - See real-time availability of menu items
 
 2.  <b>Order Placement</b><br>
     The app will feature an ordering system to allow users to select menu items, leave instructions / special requests and pay for their menu items.
 
-    - Add items to cart, specify special requests and complete payment via Stripe
+    - Add items to cart, specify special requests ~~and complete payment via Stripe~~
 
 3.  <b>Order Tracking</b><br>
     The app will feature an order tracking system to allow customers to view the status of their order.
@@ -70,14 +80,14 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
     - Track the progress of orders from placement to completion
 
 4.  <b>User Account Management</b><br>
-    Customers can create a personal account to save their preferences, past orders, and contact details for faster future transactions.
-    Logged-in users can view and update their profile information, such as delivery addresses, payment details, and contact numbers.
+    Customers can create a personal account to save their ~~preferences~~, past orders, ~~and contact details~~ for faster future transactions
+    ~~Logged-in users can view and update their profile information, such as delivery addresses, payment details, and contact numbers.~~
 
 5.  <b>User Loyalty Program</b><br>
-    Customers are given incentive to use the app and visit the cafe /restaurant in order to earn discounts after spending a certain amount of money or purchasing a certain amount of products.
+    ~~Customers are given incentive to use the app and visit the cafe /restaurant in order to earn discounts after spending a certain amount of money or purchasing a certain amount of products.~~
 
-    - Customers are rewarded for their loyalty through a points-based system, where they earn points for every purchase
-    - The program offers transparency by allowing users to track their progress toward rewards directly within the app.
+    ~~Customers are rewarded for their loyalty through a points-based system, where they earn points for every purchase
+    The program offers transparency by allowing users to track their progress toward rewards directly within the app.~~
 
 ### For Businesses
 
@@ -85,7 +95,7 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
     Business owners will be able to create, update and delete menu items using a dashboard in the app.
 
     - Real-time updates to menu availability ensure customers see only what is currently available, minimising order issues related to unavailable items.
-    - The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items.
+    ~~ The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items. ~~
 
 2.  <b>Order Dashboard</b><br>
     Kitchen staff and business owners will be able to view past and present orders. Furthermore, they’ll be able to confirm or cancel present orders.
@@ -93,6 +103,8 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
     - Kitchen staff and business owners can view all current, pending, and completed orders in one centralised system.
     - Orders are categorised by status (“In Progress,” “Completed”) to streamline kitchen operations and improve workflow efficiency.
     - Businesses can confirm or cancel orders directly through the dashboard, providing flexibility to address errors or handle special circumstances.
+
+ 
 
 ## Target Audience
 
@@ -103,7 +115,7 @@ The target audience for this application are restaurant / cafe owners, their sta
 1. <b>Cafe/Restaurant Owners</b>
 
    - Mange their operations seamlessly
-   - Track orders, streamline menu updates, and gain customer insights
+   - Track orders, streamline menu updates, ~~and gain customer insights~~
 
 2. <b>Cafe/Restaurant Staff</b>
    - Simplify kitchen and front of house workflows
@@ -112,7 +124,7 @@ The target audience for this application are restaurant / cafe owners, their sta
 #### Secondary Users:
 
 1. <b>Authenticated Customers</b>
-   - Benefit from a personalised ordering experience with real-time updates, access to loyalty rewards, and saved preferences for quicker checkouts.
+   - Benefit from a personalised ordering experience with real-time updates, ~~access to loyalty rewards, and saved preferences for quicker checkouts.~~
 2. <b>Unauthenticated Customers</b>
    - Enjoy a simple and efficient ordering process with real-time updates, without needing to create an account.
 
@@ -147,10 +159,8 @@ The application implements a variety of technologies associated with the MERN st
 
 ### Payment Gateway
 
-1.  <b>Stripe</b><br>
-    Stripe is the payment processing platform used by the application for customer orders.
-
-    - Processes payments securely and integrates seamlessly with the app.
+1.  ~~<b>Stripe</b> <br>
+   Stripe is the payment processing platform used by the application for customer orders. Processes payments securely and integrates seamlessly with the app.~~
 
 ### Deployment
 
@@ -164,6 +174,9 @@ The application implements a variety of technologies associated with the MERN st
 
 3. <b>Environment Variables</b><br>
    - Storing sensitive information such as API keys and database URIs securely.
+
+
+> NOTE:  Due to time constraints, the user payment preferences, loyalty program, order analytics and online payments through stripe were cut from the app.
 
 # R2 - Dataflow Diagram
 
@@ -225,20 +238,20 @@ Menu data is also shared with `Order Management` for placing orders.
 
 `Admins` and `Staff` can view order summaries for reporting purposes (daily totals, item counts).
 
-### Table Management
+### ~~Table Management~~
 
-1. External Entity:
-   - Admin
-   - Staff
-2. Processes:
-   - <b>Get All Tables:</b> Retrieve table details from the `Table Database`.
-   - <b>Add/Edit/Delete Table:</b>
-     - <b>Add:</b> Adds new table entries.
-     - <b>Edit:</b> Updates existing table information (availability).
-     - <b>Delete:</b> Removes tables from the system.
-3. Data Store: Table Database (Tracks table numbers, availability, and statuses).
+~~1. External Entity:<br>~~
+   ~~- Admin<br>~~
+   ~~- Staff<br>~~
+~~2. Processes:<br>~~
+   ~~<b>Get All Tables:</b> Retrieve table details from the `Table Database`.<br>~~
+   ~~<b>Add/Edit/Delete Table:</b><br>~~
+    ~~<b>Add:</b> Adds new table entries.<br>~~
+     ~~<b>Edit:</b> Updates existing table information (availability).<br>~~
+      ~~<b>Delete:</b> Removes tables from the system.<br>~~
+~~3. Data Store: Table Database (Tracks table numbers, availability, and statuses).<br>~~
 
-Table data is synchronised with `Order Management` for assigning orders to tables.
+~~Table data is synchronised with `Order Management` for assigning orders to tables.~~
 
 ### User Profile Management
 
@@ -254,8 +267,8 @@ Table data is synchronised with `Order Management` for assigning orders to table
 1. Basic Users: Limited access (view menus, place orders).
 2. Account Users: Extended access (profile updates).
 3. Admin/Staff:
-   - Manage menus, orders, and tables.
-   - Access data summaries (order statistics).
+   - Manage menus, orders, and tables.<br>
+   ~~Access data summaries (order statistics)~~
 
 <br>
 <details>
@@ -277,15 +290,17 @@ Table data is synchronised with `Order Management` for assigning orders to table
 
 </details>
 
+> NOTE: Table management was removed from the app. Orders can have a table number, however, there are no systems for managing the tables.
+
 # R3 - Application Architecture Diagram
 
 ### Overview
 
-Our application utilises a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
+Our application utilises a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. ~~External APIs are utilised for payment processing and map rendering.~~ The following is a more detailed breakdown of the application architecture:
 
 1. The React.js app sends CRUD requests to the Express.js Server.
 
-2. The Express.js Server processes these requests using the authentication, model and payment controllers.
+2. The Express.js Server processes these requests using the authentication, model ~~and payment~~ controllers.
 
 3. The server queries the MongoDB database or creates new documents and adds them to the database.
 
@@ -293,14 +308,16 @@ Our application utilises a MERN stack, featuring a React.js front-end, a Node.js
 
 5. The server sends a response containing data back to the front-end.
 
-6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response.
+6. ~~If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response.~~
 
-7. If the Gmp-map component is rendered, it makes a GET request to the Google Maps API server and receives a response with map data.
+7. ~~If the Gmp-map component is rendered, it makes a GET request to the Google Maps API server and receives a response with map data.~~
 
 <details>
 <summary>Click here - Application Architecture Diagram</summary>
 <img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio-revised.png">
 </details>
+
+> NOTE: Due to our application not having a real physical location, the Gmp-map component was not utilised. Furthermore, due to time constraints, STRIPE also was not utilised. 
 
 # R4 - User Stories
 
@@ -507,11 +524,11 @@ James is a vegan tourist from England who is visiting Sydney for 2 days. He want
 #### User Stories
 
 1. As an unauthenticated user, James wants to access the application and view menu items without needing to log in, so he can explore the options available without having to share personal information with the application.
-2. As an unauthenticated user, James wants to filter food items based on his dietary requirement (vegan) so he can find suitable food items easily.
+2. ~~As an unauthenticated user, James wants to filter food items based on his dietary requirement (vegan) so he can find suitable food items easily.~~
 3. As an unauthenticated user, James wants to order food online without logging in, but he understands that he won't have access to order tracking or the loyalty program.
-4. As an unauthenticated user, James wants to be able to pay for his food online using a credit card if he does not have cash on him.
+4. ~~As an unauthenticated user, James wants to be able to pay for his food online using a credit card if he does not have cash on him.~~
 5. As an unauthenticated user, James wants to be able to pay for his orders in person so he can use cash if he has enough on him.
-6. As an unauthenticated user, James wants to be able to register an account if he wants to access features available to authenticated users such as order tracking and the loyalty program.
+6. As an unauthenticated user, James wants to be able to register an account if he wants to access features available to authenticated users such as order tracking ~~and the loyalty program.~~
 
 ### 2. Persona - Authenticated User (A User That Has A Registered Account And Is Logged In)
 
@@ -519,14 +536,14 @@ Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and br
 
 #### User Stories
 
-1. As an authenticated user, Lisa wants to filter food items based on her dietary requirements (gluten-free) so she can order food online that is safe for her to eat.
-2. As an authenticated user, Lisa wants to be able to pay for her food online while heading to the cafe so she can save time.
-3. As an authenticated user, Lisa wants to be able to pay for her order online while dining-in to save time.
+1. ~~As an authenticated user, Lisa wants to filter food items based on her dietary requirements (gluten-free) so she can order food online that is safe for her to eat.~~
+2. ~~As an authenticated user, Lisa wants to be able to pay for her food online while heading to the cafe so she can save time.~~
+3. ~~As an authenticated user, Lisa wants to be able to pay for her order online while dining-in to save time.~~
 4. As an authenticated user, Lisa wants to be able to pay for her order in person so that she can use cash.
 5. As an authenticated user, Lisa want to track the status of her orders (e.g., pending, preparing and completed) so she can stay updated and know when to pick it up.
-6. As an authenticated user, Lisa wants to access a loyalty program so she can earn points with each order and redeem them for free food items.
+6. ~~As an authenticated user, Lisa wants to access a loyalty program so she can earn points with each order and redeem them for free food items.~~
 7. As an authenticated user, Lisa wants to be able to give feedback to the restaurant by writing a review in order to help them improve their service.
-8. As an authenticated user, Lisa wants to be able to change her user profile details such as email and online payment method so they can stay up-to-date.
+8. As an authenticated user, Lisa wants to be able to change her user profile details such as email and ~~online payment method so they can stay up-to-date.~~
 
 ### 3. Persona - Owner or Admin
 
@@ -550,6 +567,8 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 
 1. As kitchen staff, Tony wants to view current orders along with any customer instructions so he can prepare the orders accurately.
 2. As kitchen staff, Tony wants to mark orders as pending, completed, or canceled so he can communicate their status to the customers and other staff.
+
+> NOTE: Due to time constraints, users cannot filter the menu based on dietary requirements. However, menu items do have tags that display some select dietary information when they are rendered. Furthermore, as stated previously, online payments, and the loyalty program is no longer available.
 
 # R5 - Wireframes for multiple standard screen sizes
 
@@ -1078,6 +1097,9 @@ The filter panel directly updates the menu display, providing a dynamic and pers
 </p>
 </details>
 <br>
+
+
+> NOTE: as a team, we tried to stick to a similar design to what we had originally planned. However, we made changes based on features that were removed, practicality, and new ideas (such as menu item tags).
 
 # R6 - Task Allocation and Tracking
 
