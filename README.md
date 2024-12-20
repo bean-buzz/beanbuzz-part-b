@@ -1,4 +1,4 @@
-# BeanBuzz Part B
+# Assignment T3A2-B: Full Stack App (Part B)  - BeanBuzz 
 
 Note: This README document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
 where features have been removed or changed a ~~strike through~~ will be present accompanied by an explanation of the change.
