@@ -1,24 +1,36 @@
 # Assignment T3A2-B: Full Stack App (Part B)  - BeanBuzz 
 
-> NOTE: This README document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
-where features have been removed or changed a, ~~strike through~~ will be present accompanied by an explanation of the change at the end of the section. Links to the deployed project, github repositories for both the front-end and back-end, and installation instructions have also been added to the start of the document.
+> NOTE: Section R12 of the document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
+where features have been removed or changed a, ~~strike through~~ will be present accompanied by an explanation of the change at the end of the section.
 
-# links
+> Detailed descriptions of the current libraries used in the app, as required by rubric item CMP1003-1.2, will be added under 'tech stack' within the section 'Description of Website (Part A -R1)'.
 
-Deployed project: MAKE THIS A LINK
+> Evidence of delegation methods and project management methodology, as required by rubric item CMP1002-7.4, will be added under a new section within 'Task Allocation and Tracking (Part A - R6)'
 
-[Github repository front-end](https://github.com/bean-buzz/beanbuzz-frontend)
-
-[Github repository back-end](https://github.com/bean-buzz/beanbuzz-backend)
-
-
-# Group Information
+### Group Members
 
 - Chalani Dissanayaka
 - Rahul Dayal
 - Jason Parkin
 
-# R1 - Description of Website
+
+# R10 - link to Deployed Website
+
+Deployed project: MAKE THIS A LINK
+
+# R11 - links to Github Repositories
+
+[Github repository front-end](https://github.com/bean-buzz/beanbuzz-frontend)
+
+[Github repository back-end](https://github.com/bean-buzz/beanbuzz-backend)
+
+# Installation instructions
+
+
+# R12 - Contents of README.md as Submitted for Full Stack App - Part A
+
+
+# Description of Website (Part A - R1)
 
 Description of your website, including: Purpose, Functionality / features, Target audience and Tech stack
 
@@ -178,7 +190,7 @@ The application implements a variety of technologies associated with the MERN st
 
 > NOTE:  Due to time constraints, the user payment preferences, loyalty program, order analytics and online payments through stripe were cut from the app.
 
-# R2 - Dataflow Diagram
+# Dataflow Diagram (Part A - R2)
 
 ### Overview
 
@@ -292,7 +304,7 @@ Menu data is also shared with `Order Management` for placing orders.
 
 > NOTE: Table management was removed from the app. Orders can have a table number, however, there are no systems for managing the tables.
 
-# R3 - Application Architecture Diagram
+# Application Architecture Diagram (Part A - R3)
 
 ### Overview
 
@@ -319,7 +331,7 @@ Our application utilises a MERN stack, featuring a React.js front-end, a Node.js
 
 > NOTE: Due to our application not having a real physical location, the Gmp-map component was not utilised. Furthermore, due to time constraints, STRIPE also was not utilised. 
 
-# R4 - User Stories
+# User Stories (Part A - R5)
 
 ### Overview
 
@@ -570,7 +582,7 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 
 > NOTE: Due to time constraints, users cannot filter the menu based on dietary requirements. However, menu items do have tags that display some select dietary information when they are rendered. Furthermore, as stated previously, online payments, and the loyalty program is no longer available.
 
-# R5 - Wireframes for multiple standard screen sizes
+# Wireframes for multiple standard screen sizes (Part A - R5)
 
 > Wireframes for multiple standard screen sizes, created using industry standard software
 
@@ -1101,7 +1113,7 @@ The filter panel directly updates the menu display, providing a dynamic and pers
 
 > NOTE: as a team, we tried to stick to a similar design to what we had originally planned. However, we made changes based on features that were removed, practicality, and new ideas (such as menu item tags).
 
-# R6 - Task Allocation and Tracking
+# Task Allocation and Tracking (Part A - R6)
 
 > Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
 
