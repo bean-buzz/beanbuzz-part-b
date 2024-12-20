@@ -95,7 +95,7 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
     Business owners will be able to create, update and delete menu items using a dashboard in the app.
 
     - Real-time updates to menu availability ensure customers see only what is currently available, minimising order issues related to unavailable items.
-    ~~ The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items. ~~
+    ~~The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items.~~
 
 2.  <b>Order Dashboard</b><br>
     Kitchen staff and business owners will be able to view past and present orders. Furthermore, they’ll be able to confirm or cancel present orders.
