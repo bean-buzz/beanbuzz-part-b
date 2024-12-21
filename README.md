@@ -1464,14 +1464,14 @@ Effective communication and regular updates are critical for managing tasks with
 </details>
 <br>
 
+
 <details>
-<summary>Testing to ensure that all users can view menu items from different categories</summary>
+<summary>Testing to ensure that all users can view menu items and change categories</summary>
 <p align="center">
-<img= src="./docs/testing/development/menu-items/development-category-filter.png">
+<img src="./docs/testing/development/menu-items/development-category-filter.png">
 </p>
 </details>
 <br>
-
 
 
 
