@@ -7,6 +7,8 @@ where features have been removed or changed a, ~~strike through~~ will be presen
 
 > Evidence of delegation methods and project management methodology, as required by rubric item CMP1002-7.4, will be added under a new section within 'Task Allocation and Tracking (Part A - R6)'
 
+> Evidence of development testing and production testing , as required by rubric items CMP1002-5.1 and CMP1002-5.2, will be present at the end of the README under a new section called 'Testing' 
+
 ### Group Members
 
 - Chalani Dissanayaka
@@ -1275,3 +1277,213 @@ Effective communication and regular updates are critical for managing tasks with
 </p>
 </details>
 <br>
+
+
+# Testing 
+
+> NOTE: Some dropdowns include multiple screenshots and may be easy to miss unless you scroll.
+
+## Development
+### Registration
+
+<details>
+<summary>Testing to ensure invalid emails are not accepted for registration / sign up.</summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-invalid-email.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure invalid passwords are not accepted for registration / sign up.</summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-invalid-password.png">
+</p>
+</details>
+<br>
+
+
+<details>
+<summary>Testing to ensure invalid phone numbers are not accepted for registration / sign up.</summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-invalid-phone-number.png">
+</p>
+</details>
+<br>
+
+
+
+<details>
+<summary>Testing to ensure missing fieds are not accepted for registration / sign up.</summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-missing-fields.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure valid registrations are successfully processed and passwords are hashed. </summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-successful-registration.png">
+<img src="./docs/testing/development/registration/development-testing-successful-registration-mongosh.png">
+</p>
+</details>
+<br>
+
+
+
+<details>
+<summary>Testing to ensure that users cannot have duplicate emails.</summary>
+<p align="center">
+<img src="./docs/testing/development/registration/development-testing-duplicate-email.png">
+</p>
+</details>
+<br>
+
+
+
+### Login
+
+<details>
+<summary>Testing to ensure that users cannot have invalid email structure for login.</summary>
+<p align="center">
+<img src="./docs/testing/development/login/development-testing-invalid-login-fields.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that users cannot have a missing field during login.</summary>
+<p align="center">
+<img src="./docs/testing/development/login/development-testing-missing-fields.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that users require the correct password to login.</summary>
+<p align="center">
+<img src="./docs/testing/development/login/development-testing-invalid-password.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that users can login successfully.</summary>
+<p align="center">
+<img src="./docs/testing/development/login/development-testing-successful-login.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that users can reset their password.</summary>
+<p align="center">
+<img src="./docs/testing/development/login/development-testing-reset-password.png">
+<img src="./docs/testing/development/login/development-testing-reset-email.png">
+<img src="./docs/testing/development/login/development-testing-reset-new-password.png">
+</p>
+</details>
+<br>
+
+
+### Ordering
+
+<details>
+<summary>Testing to ensure that users can order without being logged in and testing ordering with table number</summary>
+<p align="center">
+<img src="./docs/testing/development/ordering/development-ordering-no-login.png">
+<img src="./docs/testing/development/ordering/development-ordering-no-login-mongosh.png">
+</p>
+</details>
+<br>
+
+
+<details>
+<summary>Testing to ensure that users can order while being logged in and without selecting a table number (takeaway order)</summary>
+<p align="center">
+<img src="./docs/testing/development/ordering/development-order-while-logged-in.png">
+<img src="./docs/testing/development/ordering/development-order-login-no-table.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that kitchen staff and admin can view orders</summary>
+<p align="center">
+<img src="./docs/testing/development/ordering/development-admin-view-order-details.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that kitchen staff and admin can update order status</summary>
+<p align="center">
+<img src="./docs/testing/development/ordering/testing-staff-admin-can-change-order-status.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that users can view their own orders. UPDATE THIS UPDATE THIS UPDATE THIS</summary>
+<p align="center">
+
+</p>
+</details>
+<br>
+
+### Reviews 
+
+<details>
+<summary>Testing to ensure that users can leave feedback/reviews</summary>
+<p align="center">
+<img src="./docs/testing/development/reviews/development-leaving-reviews.png">
+<img src="./docs/testing/development/reviews/development-leaving-reviews-mongosh.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that admin can approve and decline reviews and approved reviews are viewable on the home page</summary>
+<p align="center">
+<img src="./docs/testing/development/reviews/development-approving-declining-reviews.png">
+<img src="./docs/testing/development/reviews/development-viewing-approved-reviews.png">
+</p>
+</details>
+<br>
+
+### Menu Items
+
+<details>
+<summary>Testing to ensure that admin users can create new menu-items</summary>
+<p align="center">
+<img src="./docs/testing/development/menu-items/development-menu-item-creation.png">
+<img src="./docs/testing/development/menu-items/development-create-menu-item-mongosh.png">
+<img src="./docs/testing/development/menu-items/development-display-new-menu-item.png">
+</p>
+</details>
+<br>
+
+<details>
+<summary>Testing to ensure that all users can view menu items from different categories</summary>
+<p align="center">
+<img= src="./docs/testing/development/menu-items/development-category-filter.png">
+
+</p>
+</details>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
