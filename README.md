@@ -3,7 +3,7 @@
 > NOTE: Section R12 of the document is the same as 'T3A2-A: Full Stack App (Part A)', HOWEVER,
 where features have been removed or changed a, ~~strike through~~ will be present accompanied by an explanation of the change at the end of the section.
 
-> Detailed descriptions of the current libraries used in the app, as required by rubric item CMP1003-1.2, will be added under 'tech stack' within the section 'Description of Website (Part A -R1)'.
+> Detailed descriptions of the current libraries used in the app, as required by rubric item CMP1003-1.2, will be added after 'tech stack' within the section 'Description of Website (Part A -R1)'.
 
 > Evidence of delegation methods and project management methodology, as required by rubric item CMP1002-7.4, will be added under a new section within 'Task Allocation and Tracking (Part A - R6)'
 
@@ -171,10 +171,11 @@ The application implements a variety of technologies associated with the MERN st
     - Stores Collections for users, menu items, orders, and loyalty rewards
     - Hosted on Cloud Atlas for robust performance and scalability
 
-### Payment Gateway
+### ~~Payment Gateway~~
 
 1.  ~~<b>Stripe</b> <br>
    Stripe is the payment processing platform used by the application for customer orders. Processes payments securely and integrates seamlessly with the app.~~
+
 
 ### Deployment
 
@@ -188,6 +189,112 @@ The application implements a variety of technologies associated with the MERN st
 
 3. <b>Environment Variables</b><br>
    - Storing sensitive information such as API keys and database URIs securely.
+
+
+
+
+## Additional Libraries That Were Used in the Application After Development had Started
+
+### Development Libraries
+
+[Nodemon](https://www.npmjs.com/package/nodemon)
+
+Nodemon helps develop Node.js based applications by automatically restarting the application when file changes in the directory are detected. It was used when developing the backend and frontend.
+
+[Json-server](https://www.npmjs.com/package/json-server)
+
+ This was used in a separate repo to create a mock-api that serves menu-item data becore the backend was ready.
+
+ ### Test Libraries
+
+ [Jest](https://www.npmjs.com/package/jest)
+
+ This testing library is used for testing functions in javascript application. In our application, it was mainly used to test functions related to user registration, password resetting, and login.
+
+ [Jest HTML Reporter](https://www.npmjs.com/package/jest-html-reporter)
+
+ This library was used to create visually appealing and easy-to-read testing reports.
+
+ ### Backend Libraries
+
+ [Bcrypt](https://www.npmjs.com/package/bcrypt)
+
+ Bcrypt was used to hash passwords upon user registration and password reset and compare hashed passwords during user login.
+
+ [Dotenv](https://www.npmjs.com/package/dotenv)
+
+ Dotenv loads environment variables from a .env file into process.env, making configuration easy and secure.
+
+ [Helmet](https://www.npmjs.com/package/helmet)
+
+ Adds security headers to Express apps, protecting against common web vulnerabilities like XSS and clickjacking.
+
+ [Cors](https://www.npmjs.com/package/cors)
+
+ Middleware for enabling Cross-Origin Resource Sharing in Express   applications, allowing controlled access from different domains.
+
+ [JsonWebToken](https://www.npmjs.com/package/jsonwebtoken)
+
+ Used to generate and verify JSON Web Tokens (JWT) for secure user authentication and authorization.
+
+[Mongoose](https://www.npmjs.com/package/mongoose)
+ODM (Object-Document Mapping) library for MongoDB, providing schema-based solutions for modeling application data.
+
+[Nodemailer](https://www.npmjs.com/package/nodemailer)
+
+Allows easy sending of emails from Node.js applications using SMTP or other transport protocols.
+
+[Validator](https://www.npmjs.com/package/validator)
+
+Library for validating and sanitizing user input (e.g., emails, URLs, strings) to enhance data security.
+
+[Concurrently](https://www.npmjs.com/package/concurrently)
+
+Utility to run multiple scripts or commands concurrently in one terminal, useful for development tasks.
+
+[datauri](https://www.npmjs.com/package/datauri)
+
+Encodes file paths into Data URI format for use in inline images or resources.
+
+[dayjs](https://www.npmjs.com/package/dayjs)
+
+Lightweight JavaScript library for parsing, formatting, and manipulating dates and times, an alternative to Moment.js.
+
+[express-asynct-errors](https://www.npmjs.com/package/express-async-errors)
+
+Adds error handling for async/await in Express middleware and routes.
+
+[express-mongo-sanitize](https://www.npmjs.com/package/express-mongo-sanitize)
+
+Middleware to sanitize inputs against query injection attacks in MongoDB.
+
+[express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
+
+Middleware for rate-limiting requests to APIs, preventing abuse and brute-force attacks
+
+[express-validator](https://www.npmjs.com/package/express-validator)
+
+Middleware to validate and sanitize user inputs using declarative schema validation.
+
+[http-status-codes](https://www.npmjs.com/package/http-status-codes)
+
+[mongodb](https://www.npmjs.com/package/mongodb)
+
+ MongoDB Node.js driver to interact with MongoDB databases directly, supporting queries, updates, and aggregation.
+
+[morgan](https://www.npmjs.com/package/morgan)
+
+HTTP request logger middleware for Express, useful for debugging and monitoring requests.
+
+[multer](https://www.npmjs.com/package/multer)
+
+Middleware for handling file uploads in Node.js, supporting multipart/form-data requests.
+
+[nanoid](https://www.npmjs.com/package/nanoid)
+
+Generates unique, random, and URL-friendly IDs for short links, database keys, or tokens.
+
+### frontend libraries
 
 
 > NOTE:  Due to time constraints, the user payment preferences, loyalty program, order analytics and online payments through stripe were cut from the app.
@@ -1281,7 +1388,7 @@ Effective communication and regular updates are critical for managing tasks with
 
 # Testing 
 
-> NOTE: Some dropdowns include multiple screenshots and may be easy to miss unless you scroll.
+> NOTE: Some dropdowns include multiple screenshots and may be easy to miss unless you scroll down once opened.
 
 ## Development
 ### Registration
